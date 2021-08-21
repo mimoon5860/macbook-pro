@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy | Mac Book Pro</title>
+
+    <!-- css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Header Section  Started-->
+    <header>
+        <section>
+            <div class="header-title">
+                <h1>Buy Your Favourite Mac Book Pro!</h1>
+            </div>
+        </section>
+    </header>
+    <!-- Header Section  Ended-->
+
+    <!-- Main Section Started-->
+    <main>
+        <section class="main-section">
+
+            <!-- Main left section  -->
+            <div class="main-img">
+                <img src="images/mac.png" alt="">
+            </div>
+
+            <!-- Main Right Section  -->
+            <div class="customize-section">
+
+                <!-- Product Details Section s -->
+                <div class="product-details">
+                    <h1>Customize your Blue 24-inch iMac with Apple M1 chip.</h1>
+                    <p>Apple M1 chip with 8-core CPU with 4 performance cores and 4 efficiency cores, 7-core GPU, and
+                        16-core Neural Engine 8GB unified memory 256GB SSD storage Two Thunderbolt/USB 4 ports Magic
+                        Mouse Magic Keyboard US English</p>
+                </div>
+
+                <!-- Select options section  -->
+                <div class="options-section">
+                    <h3>Memory</h3>
+                    <button onclick="NoExtraCost('memory')">8GB unified memory</button>
+                    <button onclick="extraCost('16gb')">16GB unified memory</button>
+                </div>
+                <div class="options-section">
+                    <h3>Storage</h3>
+                    <button onclick="NoExtraCost('ssd')">256GB SSD storage</button>
+                    <button onclick="extraCost('512gb')">512GB SSD storage</button>
+                    <button onclick="extraCost('1tb')">1TB SSD storage</button>
+                </div>
+                <div class="options-section">
+                    <h3>Chose your delivery option</h3>
+                    <button onclick="NoExtraCost('free-delivery')">Friday, Aug 25 FREE Prime Delivery</button>
+                    <button onclick="extraCost('paid-delivery')">Friday, Aug 21 Delivery charge $20</button>
+                </div>
+
+                <!-- Cost display Section  -->
+                <div class="cost-section">
+                    <div class="rate-row">
+                        <h3>Best Price:</h3>
+                        <h3>$1299</h3>
+                    </div>
+                    <hr class="mid-hr">
+                    <div class="rate-row">
+                        <h3>Extra Memory Cost:</h3>
+                        <h3>$<span id="memory-cost">0</span></h3>
+                    </div>
+                    <hr class="mid-hr">
+                    <div class="rate-row">
+                        <h3>Extra Storage Cost:</h3>
+                        <h3>$<span id="ssd-cost">0</span></h3>
+                    </div>
+                    <hr class="mid-hr">
+                    <div class="rate-row">
+                        <h3>Delivery Charge:</h3>
+                        <h3>$<span id="delivery-cost">0</span></h3>
+                    </div>
+                    <hr class="last-hr">
+                    <div class="rate-row">
+                        <h3>Total Price:</h3>
+                        <h3>$<span id="total-cost">1299</span></h3>
+                    </div>
+
+                    <!-- Promo add section  -->
+                    <div class="promo-section">
+                        <h3>Add Promo Code</h3>
+                        <div class="promo-input">
+                            <input id="promo-input" type="text">
+                            <button id="promo-apply">Apply</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+
+        <!-- Total after Promo Section  -->
+        <section>
+            <div class="total">
+                <h1>Total: $<span id="total-after-promo">1299</span></h1>
+            </div>
+        </section>
+    </main>
+    <!-- Main Section Ended-->
+
+    <!-- Foote Section Started  -->
+    <footer>
+        <div class="footer-text">
+            <p> &copy; Apple Mac Book Pro</p>
+        </div>
+    </footer>
+    <!-- Foote Section Ended  -->
+
+
+    <!-- Js file link  -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>

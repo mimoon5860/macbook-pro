@@ -1,0 +1,126 @@
+*{margin: 0; padding: 0;}
+/* header section  */
+.header-title{
+    text-align: center;
+    padding: 2rem;
+    font-size: xx-large;
+}
+
+
+
+/* main section  */
+.main-section{
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Main left section  */
+.main-img{
+    width: 50%;
+    padding:0 5rem;
+}
+.main-img img{
+    width: 100%;
+}
+
+/* main right section  */
+.customize-section{
+    width: 50%;
+}
+.product-details{
+    margin-bottom: 2rem;
+}
+.product-details h1{
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+.product-details p{
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
+.options-section{
+    margin:2rem 0;
+}
+.options-section button{
+    padding:0.5rem;
+    background-color: white;
+    border-radius: 5px;
+    margin:5px 5px 0 0;
+    border: 1px solid rgb(184, 184, 184);
+    cursor: pointer;
+}
+.options-section button:hover{
+    background-color: grey;
+    color: white;
+}
+
+/* Cost Display Section  */
+.cost-section{
+    width: 50%;
+}
+.rate-row{
+    display: flex;
+    justify-content: space-between;
+    padding:0.5rem;
+}
+
+/* Code for horizontal line  */
+.mid-hr{
+    height: 1px;
+    background-color: rgb(187, 187, 187);
+}
+.last-hr{
+    height: 2px;
+    background-color: rgb(0, 0, 0);
+}
+
+/* Promo Section  */
+.promo-section{
+    margin: 1rem 0;
+}
+.promo-section h3{
+    color: rgb(58, 58, 58);
+}
+.promo-input {
+    display: flex;
+}
+.promo-input input{
+    padding: 10px;
+    border: 1px solid rgb(174, 174, 174);
+    border-radius: 5px;
+    margin-right: 5px;
+}
+.promo-input button{
+    padding: 0 15px;
+    background-color: #DC3545;
+    border:none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.promo-input button:hover{
+    background-color: #ff011a;
+}
+
+/* Total After Promo  */
+.total h1{
+text-align: center;
+padding: 0.5rem;
+font-size: 3rem;
+color: rgb(43, 43, 43);
+}
+
+
+
+/* Footer Section  */
+.footer-text{
+    margin-top:50px ;
+    background-color: rgb(84, 84, 84);
+    padding: 20px;
+}
+.footer-text p{
+    text-align: center;
+    color: white;
+}
